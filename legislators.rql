@@ -1,0 +1,9 @@
+legislators ( state: string := "%", type: string:= "%", party: string:="%") := {
+SELECT * 
+FROM READ("https://theunitedstates.io/congress-legislators/legislators-current.csv") l
+WHERE
+  l.state like state AND
+  l.type like type AND
+  l.party like party
+LIMIT 10
+};

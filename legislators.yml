@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+code: rql
+codeFile: legislators.rql
+format: json
+computeClass: normal
+enabled: true
+cacheSizeMB: 200
+computeLimitSeconds: 10
+declaration: legislators
+metadata:
+  title: Legislators of the United States
+  description: search by type, party and state
+  tags:
+    - government
+    - USA
+security:
+  public: true
+refreshSeconds: 10
