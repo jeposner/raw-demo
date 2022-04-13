@@ -8,7 +8,7 @@ computeClass: normal
 enabled: true
 cacheSizeMB: 200
 computeLimitSeconds: 10
-declaration: rql
+declaration: legislators
 metadata:
   title: legislators of the United States
   description: search by state, type or party
