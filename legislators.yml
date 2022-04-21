@@ -6,8 +6,8 @@ codeFile: legislators.rql
 format: json
 computeClass: normal
 enabled: true
-cacheSizeMB: 200
-computeLimitSeconds: 10
+cacheSizeMB: 10
+computeLimitSeconds: 20
 declaration: legislators
 metadata:
   title: Legislators of the United States
@@ -17,4 +17,4 @@ metadata:
     - USA
 security:
   public: true
-refreshSeconds: 10
+refreshSeconds: 60
